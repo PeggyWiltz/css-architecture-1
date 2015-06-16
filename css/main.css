@@ -1,0 +1,29 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+  max-width: 980px;
+  background-color: #F5F5DC;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.btn, .h2-skin {
+  color: white;
+  background-color: blue;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+.button-action {
+  background-color: red;
+}
+
+.container-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-centered {
+  text-align: center;
+}
