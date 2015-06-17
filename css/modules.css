@@ -1,19 +1,25 @@
-.btn, .h2-skin {
-  color: white;
-  background-color: blue;
-  padding: 1em;
-  border-radius: 15px;
-}
-
-.button-action {
-  background-color: red;
-}
-
 .container-centered {
   margin-left: auto;
   margin-right: auto;
 }
 
+.float-right {
+  float: right;
+}
+
+.text-aligned-right {
+  text-align: right;
+}
+
 .text-centered {
   text-align: center;
+}
+
+.fullscreen {
+  background-image: url("../images/brooklyn_bridge.jpg");
+}
+
+.about-picture {
+  width: 100%;
+  height:auto;
 }

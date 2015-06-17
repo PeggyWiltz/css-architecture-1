@@ -1,13 +1,112 @@
+html {
+}
+
 body {
   font-family: Verdana, Arial, sans-serif;
+  background-color: none;
+  /*background: url(../images/brooklyn_bridge.jpg);*/
+}
+
+legend {
+  font-size: 1.5em;
+}
+
+button {
+  background-color: green;
+  color: white;
+}
+
+p {
   max-width: 980px;
-  background-color: #F5F5DC;
+  font-family: "open_sansregular";
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 nav a {
   text-decoration: none;
+  color: white;
+  font-family: "robotobold";
+  font-size: 1.5em;
 }
 
 a:hover {
   cursor: pointer;
+}
+
+section li {
+ list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 25em;
+}
+
+header {
+  background: #36454F;
+  padding-top: 2em;
+
+}
+
+header h2 {
+  background: white;
+}
+
+footer {
+  background: #36454F;
+  color: white;
+  padding-top: 2em;
+  margin-left: 0;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-family: "robotobold";
+}
+
+.search {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+img {
+  width: 128px;
+  height: auto;
+}
+
+form {
+  max-width: 350px;
+}
+
+input:not([class='search']) {
+  display: block;
+}
+
+textarea {
+  display: block;
+  resize: vertical;
+}
+
+fieldset {
+  border-radius: 15px;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
 }
