@@ -1,0 +1,57 @@
+/* Headings */
+.heading-skin {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-family: "robotobold";
+}
+
+/* Contact Section*/
+.social-media-links {
+  text-decoration: none;
+}
+
+.contact-form {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #d3d3d3;
+}
+
+/* About Section */
+.about-picture {
+  width: 100%;
+  height: auto;
+}
+
+/* Portfolio Section*/
+.badge-image {
+  width: 128px;
+  height: auto;
+}
+
+/* Utilities */
+.container-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.float-right {
+  float: right;
+}
+
+.text-aligned-right {
+  text-align: right;
+}
+
+.text-aligned-left {
+  text-align: left;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.search {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}

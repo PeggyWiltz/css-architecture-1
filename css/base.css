@@ -1,0 +1,401 @@
+/* Open Sans Font */
+@font-face {
+  font-family: 'open_sansbold';
+  src: url('../fonts/opensans-bold-webfont.eot');
+  src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-bold-webfont.woff') format('woff'),
+       url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+       url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansbold_italic';
+  src: url('../fonts/opensans-bolditalic-webfont.eot');
+  src: url('../fonts/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/opensans-bolditalic-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-bolditalic-webfont.woff') format('woff'),
+       url('../fonts/opensans-bolditalic-webfont.ttf') format('truetype'),
+       url('../fonts/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansitalic';
+  src: url('../fonts/opensans-italic-webfont.eot');
+  src: url('../fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/opensans-italic-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-italic-webfont.woff') format('woff'),
+       url('../fonts/opensans-italic-webfont.ttf') format('truetype'),
+       url('../fonts/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('../fonts/opensans-regular-webfont.eot');
+  src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-regular-webfont.woff') format('woff'),
+       url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+       url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Roboto Font */
+@font-face {
+  font-family: 'robotobold';
+  src: url('../fonts/roboto-bold-webfont.eot');
+  src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-bold-webfont.woff') format('woff'),
+       url('../fonts/roboto-bold-webfont.ttf') format('truetype'),
+       url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotobold_italic';
+  src: url('../fonts/roboto-bolditalic-webfont.eot');
+  src: url('../fonts/roboto-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto-bolditalic-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-bolditalic-webfont.woff') format('woff'),
+       url('../fonts/roboto-bolditalic-webfont.ttf') format('truetype'),
+       url('../fonts/roboto-bolditalic-webfont.svg#robotobold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoitalic';
+  src: url('../fonts/roboto-italic-webfont.eot');
+  src: url('../fonts/roboto-italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-italic-webfont.woff') format('woff'),
+       url('../fonts/roboto-italic-webfont.ttf') format('truetype'),
+       url('../fonts/roboto-italic-webfont.svg#robotoitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../fonts/roboto-regular-webfont.eot');
+  src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-regular-webfont.woff') format('woff'),
+       url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+       url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Glyphicon Fonts */
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?yxvvo9');
+  src:url('../fonts/icomoon.eot?#iefixyxvvo9') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?yxvvo9') format('truetype'),
+      url('../fonts/icomoon.woff?yxvvo9') format('woff'),
+      url('../fonts/icomoon.svg?yxvvo9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Glyphicons */
+.icon-paper-clip:before {
+  content: "\e001";
+}
+.icon-mail:before {
+  content: "\e002";
+}
+.icon-camera:before {
+  content: "\e017";
+}
+.icon-cog:before {
+  content: "\e023";
+}
+.icon-align-justify:before {
+  content: "\e026";
+}
+.icon-layers:before {
+  content: "\e031";
+}
+.icon-delete:before {
+  content: "\e119";
+}
+.icon-menu:before {
+  content: "\e120";
+}
+.icon-ellipsis:before {
+  content: "\e129";
+}
+.icon-envelope:before {
+  content: "\e600";
+}
+
+/* Base CSS Styling */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "open_sansregular", Arial, sans-serif;
+}
+
+p {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+a {
+  color: #1EAEDB;
+}
+
+a:hover {
+  color: #0FA0CE;
+  cursor: pointer;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0;
+}
+
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB;
+}
+
+input[type="email"],
+input[type="text"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="text"],,
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="email"]:focus,
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0;
+}
+
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600;
+}
+
+fieldset {
+  padding: 0;
+  border-width: 0;
+}
+
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal;
+}
+
+legend {
+  font-size: 1.5em;
+}
+
+form {
+  max-width: 350px;
+}
+
+input:not([class='search']) {
+  display: block;
+}
+
+textarea {
+  display: block;
+  resize: vertical;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}
+
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem;
+}
+
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  margin-bottom: 2.5rem;
+}
+
+button {
+  background-color: orange;
+  color: white;
+}
+
+article {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+article:nth-child(odd) {
+  background: #98FF98;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "robotobold";
+  font-size: 1.5em;
+}
+
+section li {
+ list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 25em;
+}
+
+header {
+  background: #36454F;
+  padding-top: 2em;
+
+}
+
+footer {
+  background: #36454F;
+  color: white;
+  padding-top: 2em;
+  margin-left: 0;
+}
+
+h1 {
+  font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;
+}
+
+h2 {
+  font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem;
+}
+
+h3 {
+  font-size: 1.2em;
+}
