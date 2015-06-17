@@ -8,7 +8,7 @@ legend {
 }
 
 button {
-  background-color: green;
+  background-color: orange;
   color: white;
 }
 
@@ -23,7 +23,7 @@ article {
 }
 
 article:nth-child(odd) {
-  background: orange;
+  background: #98FF98;
 }
 
 nav a {
@@ -65,11 +65,6 @@ footer {
 h3 {
   font-size: 1.2em;
   font-family: "robotobold";
-}
-
-.search {
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
 }
 
 img {
