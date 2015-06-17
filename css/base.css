@@ -152,10 +152,10 @@
 .icon-envelope:before {
   content: "\e600";
 }
+
 /* CSS Styling */
 body {
   font-family: "open_sansregular", Arial, sans-serif;
-  /*background: url(../images/brooklyn_bridge.jpg);*/
 }
 
 legend {
