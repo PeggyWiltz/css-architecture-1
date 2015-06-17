@@ -2,8 +2,7 @@ html {
 }
 
 body {
-  font-family: Verdana, Arial, sans-serif;
-  background-color: none;
+  font-family: "open_sansregular", Arial, sans-serif;
   /*background: url(../images/brooklyn_bridge.jpg);*/
 }
 
@@ -17,10 +16,12 @@ button {
 }
 
 p {
-  max-width: 980px;
-  font-family: "open_sansregular";
   padding-left: 2em;
   padding-right: 2em;
+}
+
+article:nth-child(odd) {
+  background: orange;
 }
 
 nav a {

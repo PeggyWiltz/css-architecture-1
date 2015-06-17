@@ -165,8 +165,10 @@ a:hover {
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
 button,
 input[type="submit"],
+input[type="reset"],
 input[type="button"] {
   display: inline-block;
   height: 38px;
@@ -185,12 +187,15 @@ input[type="button"] {
   border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box; }
-
+.button:hover,
 button:hover,
 input[type="submit"]:hover,
+input[type="reset"]:hover,
 input[type="button"]:hover,
+.button:focus,
 button:focus,
 input[type="submit"]:focus,
+input[type="reset"]:focus,
 input[type="button"]:focus {
   color: #333;
   border-color: #888;
