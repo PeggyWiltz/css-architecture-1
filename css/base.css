@@ -1,6 +1,3 @@
-html {
-}
-
 body {
   font-family: "open_sansregular", Arial, sans-serif;
   /*background: url(../images/brooklyn_bridge.jpg);*/
@@ -18,6 +15,11 @@ button {
 p {
   padding-left: 2em;
   padding-right: 2em;
+}
+
+article {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 article:nth-child(odd) {
@@ -51,10 +53,6 @@ header {
   background: #36454F;
   padding-top: 2em;
 
-}
-
-header h2 {
-  background: white;
 }
 
 footer {
