@@ -1,0 +1,5 @@
+@media screen and (-webkit-device-pixel-ratio: 1.5) {
+    .about-picture {
+        background:url(../images/);
+    }
+}
