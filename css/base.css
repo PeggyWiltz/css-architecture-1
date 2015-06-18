@@ -368,17 +368,11 @@ section li {
 }
 
 nav li {
-  display: block;
+  display: inline;
   list-style-type: none;
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 2em;
-}
-
-@media screen (min-width: 500px) {
-  nav li {
-    display: inline;
-  }
 }
 
 header {
