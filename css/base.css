@@ -375,7 +375,7 @@ nav li {
   padding-top: 2em;
 }
 
-@media (min-width: 468px) {
+@media screen (min-width: 500px) {
   nav li {
     display: inline;
   }
