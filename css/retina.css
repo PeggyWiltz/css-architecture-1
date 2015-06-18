@@ -1,0 +1,6 @@
+@media screen and (-webkit-device-pixel-ratio: 2) {
+    .about-picture {
+        background:url(../images/dolomites-retina.jpg);
+        background-repeat: no-repeat;
+    }
+}

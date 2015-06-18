@@ -21,11 +21,18 @@
 .about-picture {
   width: 100%;
   height: auto;
+  background-image: url(../images/dolomites-regular.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Portfolio Section*/
+
+.badge-container {
+  width: 20%;
+}
 .badge-image {
-  width: 128px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -33,6 +40,10 @@
 .container-centered {
   margin-left: auto;
   margin-right: auto;
+}
+
+.icon-size {
+  font-size: 1em;
 }
 
 .float-right {
@@ -54,4 +65,10 @@
 .search {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+}
+
+@media (max-width: 500px) {
+  nav li {
+    display: block;
+  }
 }

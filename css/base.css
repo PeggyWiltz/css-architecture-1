@@ -161,7 +161,7 @@ html {
 
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
+  line-height: 1.6em;
   font-weight: 400;
   font-family: "open_sansregular", Arial, sans-serif;
 }
@@ -185,20 +185,20 @@ button,
 input[type="submit"],
 input[type="button"] {
   display: inline-block;
-  height: 38px;
-  padding: 0 30px;
+  height: 2.8em;
+  padding: 0 1em;
   color: #555;
   text-align: center;
-  font-size: 11px;
+  font-size: .6em;
   font-weight: 600;
-  line-height: 38px;
+  line-height: 1.5em;
   letter-spacing: .1rem;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
+  border-radius: .3em;
+  border: .1em solid #bbb;
   cursor: pointer;
   box-sizing: border-box;
 }
@@ -242,11 +242,11 @@ input[type="email"],
 input[type="text"],
 textarea,
 select {
-  height: 38px;
-  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  height: 2.4em;
+  padding: .6em .6em; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
-  border: 1px solid #D1D1D1;
-  border-radius: 4px;
+  border: .1em solid #D1D1D1;
+  border-radius: .2em;
   box-shadow: none;
   box-sizing: border-box;
 }
@@ -261,14 +261,14 @@ textarea {
 }
 
 textarea {
-  min-height: 65px;
-  padding-top: 6px;
-  padding-bottom: 6px; }
+  min-height: 5em;
+  padding-top: .6em;
+  padding-bottom: .6em; }
 input[type="email"]:focus,
 input[type="text"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #33C3F0;
+  border: .2em solid #33C3F0;
   outline: 0;
 }
 
@@ -372,7 +372,7 @@ nav li {
   list-style-type: none;
   padding-left: 2em;
   padding-right: 2em;
-  padding-top: 25em;
+  padding-top: 2em;
 }
 
 header {
