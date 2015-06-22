@@ -1,7 +1,5 @@
 @media screen and (-webkit-device-pixel-ratio: 1.5) {
-    .about-picture {
-      /*Still looking for an HDPI image */
-        background:url(../images/dolomites-retina.jpg);
-        background-repeat: no-repeat;
+    body {
+        background:url(../images/bg_@1_5x.png);
     }
 }
