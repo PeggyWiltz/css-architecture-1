@@ -438,3 +438,13 @@ fieldset {
   border-radius: .4em;
   border: .1em solid #16a085;
 }
+
+h2 {
+  cursor: pointer;
+}
+
+h2:hover {
+  color: white;
+  background-color: #16a085;
+  border-radius: .4em;
+}

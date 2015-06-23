@@ -327,3 +327,7 @@
 .float-right {
   float: right;
 }
+
+.collapse {
+  display: none;
+}

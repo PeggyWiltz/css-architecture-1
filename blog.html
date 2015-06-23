@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/modules.css">
   </head>
 
-  <body class="container">
+  <body class="container" onload="init()">
     <header role="banner" class="box-skin">
       <nav role="navigation">
         <ul class="navbar-list">
@@ -25,15 +25,27 @@
     <main role="main" class="box-skin">
       <article role="article" class="box-padding">
         <section>
-          <h2>Blog Post #2</h2>
-          <time>2015-06-19</time>
-          <p class="box-padding">Fanny pack Bushwick kogi Etsy, keytar tousled sriracha. Church-key four loko listicle PBR&B, sustainable Neutra quinoa. Cred wolf tofu, Odd Future drinking vinegar retro pork belly 90's distillery sartorial PBR&B lomo Neutra. Marfa 3 wolf moon cronut paleo leggings, Austin photo booth cornhole. Retro YOLO ennui, Shoreditch roof party PBR Echo Park. Actually chia hella, quinoa shabby chic Marfa crucifix drinking vinegar pork belly bespoke Helvetica tilde. Pitchfork fap Godard, readymade leggings Portland flannel.</p>
+          <h2 id="post-three-heading" class="box-skin text-align-center">Blog Post #3</h2>
+          <section id="post-three" class="box-padding blog-text">
+            <time class="box-padding">2015-06-22</time>
+            <p class="box-padding">Fanny pack Bushwick kogi Etsy, keytar tousled sriracha. Church-key four loko listicle PBR&B, sustainable Neutra quinoa. Cred wolf tofu, Odd Future drinking vinegar retro pork belly 90's distillery sartorial PBR&B lomo Neutra. Marfa 3 wolf moon cronut paleo leggings, Austin photo booth cornhole. Retro YOLO ennui, Shoreditch roof party PBR Echo Park. Actually chia hella, quinoa shabby chic Marfa crucifix drinking vinegar pork belly bespoke Helvetica tilde. Pitchfork fap Godard, readymade leggings Portland flannel.</p>
+          </section>
         </section>
 
         <section>
-          <h2>Blog Post #1</h2>
-          <time>2015-06-18</time>
-          <p class="box-padding">Flannel disrupt aesthetic, irony butcher narwhal Schlitz biodiesel Blue Bottle Pitchfork meggings drinking vinegar High Life. Etsy quinoa iPhone American Apparel. Food truck sriracha pickled, Odd Future asymmetrical readymade occupy letterpress sartorial. Blue Bottle PBR&B bicycle rights, listicle readymade High Life single-origin coffee. Pitchfork normcore aesthetic, skateboard fixie YOLO literally whatever pour-over master cleanse heirloom tofu try-hard chambray forage. Photo booth polaroid swag umami deep v quinoa. Drinking vinegar dreamcatcher Williamsburg, locavore bitters bicycle rights listicle semiotics church-key asymmetrical.</p>
+          <h2 id="post-two-heading" class="box-skin text-align-center" >Blog Post #2</h2>
+          <section id="post-two" class="box-padding blog-text">
+            <time class="box-padding">2015-06-19</time>
+            <p class="box-padding">Fanny pack Bushwick kogi Etsy, keytar tousled sriracha. Church-key four loko listicle PBR&B, sustainable Neutra quinoa. Cred wolf tofu, Odd Future drinking vinegar retro pork belly 90's distillery sartorial PBR&B lomo Neutra. Marfa 3 wolf moon cronut paleo leggings, Austin photo booth cornhole. Retro YOLO ennui, Shoreditch roof party PBR Echo Park. Actually chia hella, quinoa shabby chic Marfa crucifix drinking vinegar pork belly bespoke Helvetica tilde. Pitchfork fap Godard, readymade leggings Portland flannel.</p>
+          </section>
+        </section>
+
+        <section>
+          <h2 id="post-one-heading" class="box-skin text-align-center">Blog Post #1</h2>
+          <section id="post-one"class="box-padding blog-text">
+            <time class="box-padding">2015-06-18</time>
+            <p class="box-padding">Flannel disrupt aesthetic, irony butcher narwhal Schlitz biodiesel Blue Bottle Pitchfork meggings drinking vinegar High Life. Etsy quinoa iPhone American Apparel. Food truck sriracha pickled, Odd Future asymmetrical readymade occupy letterpress sartorial. Blue Bottle PBR&B bicycle rights, listicle readymade High Life single-origin coffee. Pitchfork normcore aesthetic, skateboard fixie YOLO literally whatever pour-over master cleanse heirloom tofu try-hard chambray forage. Photo booth polaroid swag umami deep v quinoa. Drinking vinegar dreamcatcher Williamsburg, locavore bitters bicycle rights listicle semiotics church-key asymmetrical.</p>
+          </section>
         </section>
       </article>
     </main>
@@ -42,5 +54,6 @@
       <p class="text-align-center">&copy; Copyright 2015</p>
     </footer>
 
+    <script src="js/app.js"></script>
   </body>
 </html>
