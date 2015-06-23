@@ -2,27 +2,31 @@ if('querySelector' in document
     && 'localStorage' in window
     && 'addEventListener' in window) {
 
-    var paragraph = document.querySelector("#post-one")
-    paragraph.classList.add("collapse");
+    function init() {
+      var postOne = document.querySelector("#post-one");
+      postOne.classList.add("collapse");
+      var postTwo = document.querySelector("#post-two")
+      postTwo.classList.toggle("collapse");
+      var postThree = document.querySelector("#post-three")
+      postThree.classList.toggle("collapse");
 
-    var paragraph = document.querySelector("#post-two")
-    paragraph.classList.add("collapse");
-
-    var paragraph = document.querySelector("#post-three")
-    paragraph.classList.add("collapse");
+      postOne.addEventListener("click", collapseOne, false);
+      postTwo.addEventListener("click", collapseOne, false);
+      postThree.addEventListener("click", collapseOne, false);
+    }
 
     function collapseOne() {
-    var paragraph = document.querySelector("#post-one");
-    paragraph.classList.toggle("collapse");
+    var postOne = document.querySelector("#post-one");
+    postOne.classList.toggle("collapse");
   }
 
     function collapseTwo() {
-    var paragraph = document.querySelector("#post-two");
-    paragraph.classList.toggle("collapse");
+    var postTwo = document.querySelector("#post-two");
+    postTwo.classList.toggle("collapse");
   }
 
     function collapseThree() {
-    var paragraph = document.querySelector("#post-three");
-    paragraph.classList.toggle("collapse");
+    var postThree = document.querySelector("#post-three");
+    postThree.classList.toggle("collapse");
   }
 }
