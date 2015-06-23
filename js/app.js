@@ -1,36 +1,25 @@
-if('querySelector' in document
-    && 'localStorage' in window
-    && 'addEventListener' in window) {
+  $(function() {
 
-    function init() {
-      var postOne = document.querySelector("#post-one");
-      postOne.classList.add("collapse");
-      var postTwo = document.querySelector("#post-two")
-      postTwo.classList.toggle("collapse");
-      var postThree = document.querySelector("#post-three")
-      postThree.classList.toggle("collapse");
+  //init
+  $("#post-one").addClass("collapse");
+  $("#post-two").toggleClass("collapse");
+  $("#post-three").toggleClass("collapse");
 
+  $("#post-one-heading").on("click", collapseOne);
+  $("#post-two-heading").on("click", collapseTwo);
+  $("#post-three-heading").on("click", collapseThree);
 
-      var postOneHeading = document.querySelector("#post-one-heading")
-      var postTwoHeading = document.querySelector("#post-two-heading")
-      var postThreeHeading = document.querySelector("#post-three-heading")
-      postOneHeading.addEventListener("click", collapseOne, false);
-      postTwoHeading.addEventListener("click", collapseTwo, false);
-      postThreeHeading.addEventListener("click", collapseThree, false);
-    }
-
-    function collapseOne() {
-    var postOne = document.querySelector("#post-one");
-    postOne.classList.toggle("collapse");
+  //Dom not ready code
+  function collapseOne() {
+    $("#post-one").toggle();
   }
 
-    function collapseTwo() {
-    var postTwo = document.querySelector("#post-two");
-    postTwo.classList.toggle("collapse");
+  function collapseTwo() {
+    $("#post-two").toggle();
   }
 
-    function collapseThree() {
-    var postThree = document.querySelector("#post-three");
-    postThree.classList.toggle("collapse");
+  function collapseThree() {
+    $("#post-three").toggle();
   }
-}
+
+});  
