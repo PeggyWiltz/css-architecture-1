@@ -10,9 +10,13 @@ if('querySelector' in document
       var postThree = document.querySelector("#post-three")
       postThree.classList.toggle("collapse");
 
-      postOne.addEventListener("click", collapseOne, false);
-      postTwo.addEventListener("click", collapseOne, false);
-      postThree.addEventListener("click", collapseOne, false);
+
+      var postOneHeading = document.querySelector("#post-one-heading")
+      var postTwoHeading = document.querySelector("#post-two-heading")
+      var postThreeHeading = document.querySelector("#post-three-heading")
+      postOneHeading.addEventListener("click", collapseOne, false);
+      postTwoHeading.addEventListener("click", collapseTwo, false);
+      postThreeHeading.addEventListener("click", collapseThree, false);
     }
 
     function collapseOne() {
